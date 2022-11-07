@@ -22,7 +22,7 @@ my $attributesAgent = $agent->getAttributesAgent;
 
 #Constants
 our $A_USER_MAIL;                *A_USER_MAIL =                \'urn:perun:user:attribute-def:def:preferredMail';
-our $A_USER_LOGIN_EINFRA;        *A_USER_LOGIN_EINFRA =        \'urn:perun:user:attribute-def:def:login-namespace:einfra';
+our $A_USER_LOGIN_EINFRA;        *A_USER_LOGIN_EINFRA =        \'urn:perun:user:attribute-def:virt:optional-login-namespace:einfra';
 our $A_RESOURCE_NAME;            *A_RESOURCE_NAME =            \'urn:perun:resource:attribute-def:core:name';
 our $A_R_VO_NAME;                *A_R_VO_NAME =                \'urn:perun:resource:attribute-def:virt:voShortName';
 our $A_F_NAME;                   *A_F_NAME =                   \'urn:perun:facility:attribute-def:core:name';
